@@ -100,7 +100,7 @@ def main():
                     f"Com base no roteiro acima, crie: 1) 10 sugestões de títulos para youtube com no máximo 60 caractres que despertem a curiosidade, "
                     " benefício e urgência, utilizando as melhores práticas, rankeados; "
                     "2) descrição de vídeo de até 1000 caracteres; "
-                    "3) hashtags entre vírgulas; 4) tags separadas por vírgulas; 5) descrição em texto para thumbnail, utilizando 3 elementos "
+                    "3) hashtags entre vírgulas; 4) tags separadas por vírgulas; 5) prompt em ingles e tradução em portugues para criar thumbnail, utilizando 3 elementos "
                     "(rosto em close à esquerda da imagem, cenário de contexto e algo/alguém/objeto que confronte o personagem) que gere curiosidade, benefício e urgência.\n\n"
                     + st.session_state.roteiro
                 )

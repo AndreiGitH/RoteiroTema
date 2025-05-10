@@ -7,7 +7,7 @@ def main():
     # Configuração da página com ícone
     st.set_page_config(page_title="Roteiro YouTube AI", page_icon="📜", layout="wide")
 
-    st.title("Gerador de Roteiro para Vídeos Cristãos")
+    st.title("Gerador de Roteiro para Vídeos")
     st.markdown("Escolha o tema bíblico e o tamanho do roteiro em palavras para criar conteúdo focado no público cristão.")
 
     # Configuração da API key (não exposta)

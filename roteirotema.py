@@ -51,14 +51,14 @@ def main():
                 "    *   **Aplicação Contemporânea:** Conecte o ensinamento bíblico às experiências, emoções e desafios atuais do espectador. Use linguagem que gere identificação.\n" + \
                 "    *   **Aprofundamento e Insight:** Ofereça uma perspectiva espiritual, um \"segredo\" ou uma interpretação menos óbvia sobre o ponto, mostrando o \"porquê\" divino por trás dele.\n" + \
                 "    *   **Reflexão/Pergunta Intercalada (Opcional):** \"[Faça uma pergunta direta ao espectador relacionada ao ponto recém-explicado para estimular reflexão interna. Ex: 'Você já vivenciou [situação do ponto]? Como isso impactou sua fé?']\"\n\n" + \
-                ""3.  **\"Gatilho de Curiosidade\" Estratégico:**\n" + \
+                "3.  **\"Gatilho de Curiosidade\" Estratégico:**\n" + \
                 "    *   Se o roteiro for dividido em múltiplos pontos, mencione que um dos pontos vindouros (ex: \"o penúltimo\", \"o terceiro\") contém uma revelação/chave particularmente importante ou transformadora. \"[Entregue essa promessa com impacto, talvez com um tom ligeiramente diferente ou maior profundidade.]\"\n\n" + \
-                ""4.  **Linguagem Emocional e Encorajadora:**\n" + \
+                "4.  **Linguagem Emocional e Encorajadora:**\n" + \
                 "    *   Use palavras que toquem o coração e transmitam esperança, consolo, e a natureza amorosa e sábia de Deus, mesmo ao abordar temas difíceis.\n\n" + \
-                ""5.  **Notas de Produção (Implícitas no Estilo):**\n" + \
+                "5.  **Notas de Produção (Implícitas no Estilo):**\n" + \
                 "    *   \"[O texto deve naturalmente sugerir pausas, mudanças de inflexão e momentos de maior intensidade. Pense em como seria a narração ideal ao escrever.]\"\n" + \
                 "    *   \"[Considere momentos onde um texto-chave na tela poderia reforçar o ponto principal sendo discutido.]\"\n\n" + \
-                ""**III. CONCLUSÃO E CHAMADAS FINAIS (Aproximadamente 15-20% do roteiro):**\n\n" + \
+                "**III. CONCLUSÃO E CHAMADAS FINAIS (Aproximadamente 15-20% do roteiro):**\n\n" + \
                 "1.  **Recapitulação Breve (Opcional):** Reforce a mensagem central ou os principais aprendizados de forma concisa.\n\n" + \
                 "2.  **Mensagem de Encorajamento e Esperança:** Conecte o [TEMA BÍBLICO ESPECÍFICO] com a ação de Deus na vida do espectador.\n\n" + \
                 "3.  **Chamada para Compromisso/Ação Espiritual:**\n" + \
@@ -71,7 +71,7 @@ def main():
                 "    *   Sugira um momento de silêncio, oração ou reflexão, acompanhado por música (mencione o tipo de música).\n" + \
                 "    *   Encoraje o espectador a permanecer até o fim para absorver a mensagem e sentir a presença de Deus.\n\n" + \
                 "6.  **Bênção Final:** Termine com uma bênção ou palavras de paz.\n\n" + \
-                ""**Considerações Adicionais para o Prompt:**\n" + \
+                "**Considerações Adicionais para o Prompt:**\n" + \
                 "*   **Tom:** \"[Mantenha um tom pastoral, empático, mas também com autoridade espiritual, baseado na Palavra.]\"\n" + \
                 "*   **Linguagem:** \"[Use linguagem acessível, mas com profundidade bíblica. Evite jargões teológicos excessivos sem explicação  Evite abreviaturas. O texto já deve estar pronto para narração TTS. Caso queira uma pausa maior na narração, use '...'.]\"\n" + \
                 "*   **Foco na Aplicação Prática:** \"[Embora profundamente bíblico, o roteiro deve sempre buscar responder à pergunta 'Como isso se aplica à minha vida hoje?']\""

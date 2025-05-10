@@ -97,8 +97,11 @@ def main():
         else:
             with st.spinner("Gerando descrição, hashtags, tags e thumb..."):
                 prompt_meta = (
-                    f"Com base no roteiro acima, crie: 1) descrição de vídeo de até 1000 caracteres; "
-                    "2) hashtags entre vírgulas; 3) tags separadas por vírgulas; 4) descrição em texto para thumbnail que gere curiosidade, benefício e urgência.\n\n"
+                    f"Com base no roteiro acima, crie: 1) 10 sugestões de títulos para youtube com no máximo 60 caractres que despertem a curiosidade, "
+                    " benefício e urgência, utilizando as melhores práticas, rankeados; "
+                    "2) descrição de vídeo de até 1000 caracteres; "
+                    "3) hashtags entre vírgulas; 4) tags separadas por vírgulas; 5) descrição em texto para thumbnail, utilizando 3 elementos "
+                    "(rosto em close à esquerda da imagem, cenário de contexto e algo/alguém/objeto que confronte o personagem) que gere curiosidade, benefício e urgência.\n\n"
                     + st.session_state.roteiro
                 )
                 meta = call_genai(client, model_name, prompt_meta)

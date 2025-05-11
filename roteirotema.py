@@ -127,10 +127,12 @@ def main():
             with st.spinner("Gerando descrição, hashtags, tags e thumb..."):
                 prompt_meta = (
                     "Com base no roteiro acima, crie: "
-                    "1) descrição de vídeo de até 1000 caracteres; "
-                    "2) hashtags entre vírgulas; "
-                    "3) tags separadas por vírgulas; "
-                    "4) e sugestão de prompt em português e em inglês para a criação de imagem da thumb, "
+                    "1) 10 sugestões de títulos para youtube com no máximo 60 caractres que despertem a curiosidade, "
+                    " benefício e urgência, utilizando as melhores práticas, rankeados; "
+                    "2) descrição de vídeo de até 1000 caracteres; "
+                    "3) hashtags entre vírgulas; "
+                    "4) tags separadas por vírgulas; "
+                    "5) e sugestão de prompt em português e em inglês para a criação de imagem da thumb, "
                     "considerando 3 elementos visuais principais na thumb (Um rosto, um ambiente de fundo e algo que chame a atenção e interaja emocionalmente com o personagem), "
                     "rosto visível com expressão forte, localizado à direita da imagem, com visual chamativo e que desperte a curiosidade, benefício e urgência, sem texto overlay.\n\n"
                     + st.session_state.revisado

@@ -97,8 +97,8 @@ def main():
         with st.spinner("Revisando roteiro..."):
             prompt_review = (
                 "Revise o roteiro, com as seguintes considerações:\n"
-                "1) Introdução deve ter no máximo 2 parágrafos de 3 linhas cada;\n"
-                "2) Exclua marcações ou comentários, pois o texto deve estar pronto para narração;\n"
+                "1) Introdução deve ter no máximo 2 parágrafos de 4 linhas cada;\n"
+                "2) Exclua marcações ou comentários, como marcação de tempo, partes, música, pausas ou Apresentador, pois o texto deve estar pronto para narração;\n"
                 "3) Substitua palavras difíceis ou estrangeiras por palavras de fácil entendimento;\n"
                 "4) Abra loops para maximizar a retenção;\n"
                 "5) O texto deve ser claro e sem repetições excessivas.\n\n"

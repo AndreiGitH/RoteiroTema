@@ -83,7 +83,7 @@ def main():
     # Exibição sempre visível do roteiro gerado
     roteiro = st.session_state.get("roteiro", "")
     st.subheader("Roteiro Gerado")
-    st.text_area("", roteiro, height=300, key="script_box", disabled=True)
+    st.text_area("", roteiro, height=300, key="script_box", disabled=False)
     if roteiro:
         st.download_button(
             label="Baixar Roteiro (.txt)",
@@ -110,7 +110,7 @@ def main():
     # Exibição sempre visível do roteiro revisado
     revisado = st.session_state.get("revisado", "")
     st.subheader("Roteiro Revisado")
-    st.text_area("", revisado, height=300, key="review_box", disabled=True)
+    st.text_area("", revisado, height=300, key="review_box", disabled=False)
     if revisado:
         st.download_button(
             label="Baixar Roteiro Revisado (.txt)",
@@ -140,7 +140,7 @@ def main():
     # Exibição sempre visível dos metadados
     meta = st.session_state.get("meta", "")
     st.subheader("Descrição, Hashtags, Tags e Thumb")
-    st.text_area("", meta, height=300, key="meta_box", disabled=True)
+    st.text_area("", meta, height=300, key="meta_box", disabled=False)
     if meta:
         st.download_button(
             label="Baixar Metadados (.txt)",

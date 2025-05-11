@@ -126,7 +126,8 @@ def main():
         else:
             with st.spinner("Gerando descrição, hashtags, tags e thumb..."):
                 prompt_meta = (
-                    "Com base no roteiro acima, crie: 1) descrição de vídeo de até 1000 caracteres; "
+                    "Com base no roteiro acima, crie: "
+                    "1) descrição de vídeo de até 1000 caracteres; "
                     "2) hashtags entre vírgulas; "
                     "3) tags separadas por vírgulas; "
                     "4) e sugestão de prompt em português e em inglês para a criação de imagem da thumb, "

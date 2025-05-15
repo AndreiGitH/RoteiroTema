@@ -7,7 +7,7 @@ def main():
     # Configuração da página com ícone
     st.set_page_config(page_title="Roteiro YouTube AI", page_icon="📜", layout="wide")
 
-    st.title("Gerador de Roteiro para Vídeos Cristãos")
+    st.title("Gerador de Roteiro para Vídeos")
     st.markdown("Escolha o tema bíblico e o tamanho do roteiro em palavras para criar conteúdo focado no público cristão.")
 
     # Configuração da API key (não exposta)
@@ -16,7 +16,7 @@ def main():
 
     # Sidebar para escolha de modelo
     st.sidebar.header("Configurações do Modelo")
-    default_model = st.secrets.get("default_model", "gemini-2.5-pro-exp-03-25")
+    default_model = st.secrets.get("default_model", "gemini-2.5-flash-preview-04-17")
     model_name = st.sidebar.text_input("Modelo GenAI", value=default_model)
 
     # Inputs principais
